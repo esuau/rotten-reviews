@@ -30,6 +30,10 @@
     "nock": "^10.0.1",
     "pkg": "^4.3.4"
   },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
   "bin": {
     "rotten-reviews": "./bin/rotten-reviews.js"
   },
